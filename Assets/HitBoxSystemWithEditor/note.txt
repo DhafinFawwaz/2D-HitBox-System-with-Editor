@@ -1,0 +1,4 @@
+Animator.animatePhysics = true
+- OnEnable() and FixedUpdate() will be called as intended with its transform having the same values even when lag.
+- OnTriggerEnter2D() is consistent if its always activated.
+- OnTriggerEnter2D() wont get called its enabled and disabled before the FixedUpdate gets called.
