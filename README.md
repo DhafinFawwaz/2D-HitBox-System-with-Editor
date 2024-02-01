@@ -2,6 +2,9 @@
 
 Unity 2D Hitbox System with Editor is a flexible Hitbox system with its visualization and easy edit when animating. It uses the built in 2d Collider which makes it easily customizable. It supports circle and rectangle hitbox. It's already tested and has guaranteed hit on every frame, doesn't matter the framerate, as long as its using the physics update like using animate physics in animator.
 
+## 👁️‍🗨️ Previews
+![Preview 1](Images/1.png)
+![Preview 2](Images/2.png)
 
 ## ✨ Features
 
@@ -12,15 +15,11 @@ Unity 2D Hitbox System with Editor is a flexible Hitbox system with its visualiz
 
 ## ⚙️ How To Use
 - Add the HitboxCaster component and add the hitboxes.
-![Instruction 1](Images/1.png)
 - Add the HitboxReceiver component and add the hitboxes.
-![Instruction 2](Images/2.png)
 - Set the layer and collision matrix in project settings.
 - Use animator to animate the children of HitboxCaster and children of HitboxReceiver.
-![Instruction 3](Images/3.png)
 - Disable the HitboxCaster to reset the hitbox receiver than can be hit. Usefull to make consecutive hits.
 - Subscribe to the events of HitboxCaster and HitboxReceiver. You can do this with the API Reference below.
-
 
 
 ## 🔍 API Reference
@@ -39,7 +38,7 @@ Unity 2D Hitbox System with Editor is a flexible Hitbox system with its visualiz
 
 #### HitBoxData
 | Properties            | Type       | Description                                  |
-|:--------              |            | :------------------------------              |
+|:--------              | :--------- | :------------------------------              |
 |`HitBoxCaster`         | HitBox     | The hitbox that is currently hitting.        |
 |`HitColliderReceiver`  | Collider2D | The hitbox that is currently getting hit.    |
 
